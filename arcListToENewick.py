@@ -2,9 +2,9 @@
 #!/usr/sfw/bin/python
 
 """
-How to use (with texts provided in the .txt format, UTF-8 encoding):
+How to use (with networks provided as arc lists, one arc per line - tail whitespace head - in the .el format, UTF-8 encoding):
 - put the files with extension .el, cotaining arc lists, in the "networks" folder
-- run the script by executing in the console the following command: python arcListToENewick
+- run the script by executing in the console the following command: python arcListToENewick.py
 - for each text file in the todo folder, a new file with the same name and the extra extension .enewick is added into the same folder
 """
 
