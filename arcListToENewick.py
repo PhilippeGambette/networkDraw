@@ -48,7 +48,7 @@ def eNewick(source, digraph, inDegree, internalNodesDisplay):
 folder = os.path.abspath(os.path.dirname(sys.argv[0]))
 
 # Consider all .el files in the data folder
-for file in glob.glob(folder+"\\networks\\*.el"):
+for file in glob.glob(os.path.join(os.path.join(folder,"networks"),"*.el")):
    # Display the address of the file being treated
    print("Currently converting file " + file + " to the eNewick format.")
    inputFile = open(file,"r",encoding='utf-8')
